@@ -16,12 +16,14 @@ La structure de base contient :
 - Un fichier `manifest.xml` contenant les métadonnées du module;
 - Un fichier `[NomDuModule].php` qui sera éxecuté lors de l'installation, l'activation et la désactivation du module. Il est utile si votre module nécessite de créer des tables en base de données.
 - Un fichier `Record.php` dans lequel vous pourrez manipuler la base de données;
+- Un contrôleur de vue `Index.php` avec le template Smarty `Index.tpl` associé;
+- Un contrôleur d'action `GetAjaxData.php` utile pour de la récupération de données en Ajax;
 - Un fichier `[NomDuModule].js` utile si votre module nécessite d'éxecuter du Javascript sur toutes les pages du CRM.
 
 ## Installation
 
 - Installez dans Visual Studio Code l'extension [Project Templates](https://marketplace.visualstudio.com/items?itemName=cantonios.project-templates);
-- Clonez ce dépôt sur votre machine et ouvrez le dans Visual Studio Code;
+- Clonez ce dépôt sur votre machine et ouvrez le dossier ModuleTemplate dans Visual Studio Code;
 - Ouvrez la Palette de commande (`CTRL`+`SHIFT`+`P`), tapez "Project" et sélectionnez `Project: Save Project as Template`;
 - Nommez ce template (Exemple: Vtiger module).
 
