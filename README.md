@@ -47,3 +47,7 @@ Lorsque votre module est prêt et que vous souhaitez l'installer dans Vtiger :
 - Dans le panneau de gauche, ouvrez le sous menu `Gestion des modules` puis cliquez sur `Gestionnaire de Modules`;
 - Dans le coin superieur droit, cliquez sur le bouton `Import Module from Zip`;
 - Suivez les étapes et importez le fichier `.zip` de votre module.
+
+## Annexes
+
+- [Documentation pour développeurs Vtiger](https://community.vtiger.com/help/vtigercrm/developers/develop-extensions-for-vtiger.html)
